@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^5.0.0-alpha.8"
+  },
+  "name": "first-express-app",
+  "version": "1.0.0",
+  "homepage": "https://NestorChoconta.github.io/Taller2Node.js",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
